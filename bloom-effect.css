@@ -1,0 +1,8 @@
+.bloom-effect {
+    transition: transform 0.3s ease; /* Smooth transition for the bloom effect */
+}
+
+.bloom-effect:hover {
+    transform: scale(1.05); /* Scale up the element on hover */
+    filter: brightness(1.1); /* Increase brightness for a bloom effect */
+}

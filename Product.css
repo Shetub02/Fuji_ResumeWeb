@@ -1,0 +1,51 @@
+
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-image: url('https://media.discordapp.net/attachments/793780535838244864/1283806237217263616/IMG_7666.jpg?ex=67151cba&is=6713cb3a&hm=fb179b1700df70d7d3d917631f6067f69430f142e94ee0d01bef80a01907d089&=&format=webp&width=416&height=741'); /* Added background image */
+    background-size: cover; /* Ensures the image covers the area */
+    background-position: center; /* Centers the image */
+    border-radius: 5px;
+    z-index: 1; /* Overlay above the image */
+}
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
