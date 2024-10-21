@@ -22,7 +22,7 @@
     bottom: 10%;
     left: 10px;
     content: "";
-    background-image: url('https://media.discordapp.net/attachments/793780535838244864/1283806237217263616/IMG_7666.jpg?ex=67151cba&is=6713cb3a&hm=fb179b1700df70d7d3d917631f6067f69430f142e94ee0d01bef80a01907d089&=&format=webp&width=416&height=741'); /* Added background image */
+    background-image: url('Sorce/PhonePicture.jpg'); /* Added background image */
     background-size: cover; /* Ensures the image covers the area */
     background-position: center; /* Centers the image */
     border-radius: 5px;
