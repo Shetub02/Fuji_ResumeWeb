@@ -22,7 +22,7 @@
     bottom: 10%;
     left: 10px;
     content: "";
-    background-image: url('Sorce/PhonePicture.jpg'); /* Added background image */
+    background-image: url('Sorce/Fuji_GunSlinger.png'); /* Added background image */
     background-size: cover; /* Ensures the image covers the area */
     background-position: center; /* Centers the image */
     border-radius: 5px;
